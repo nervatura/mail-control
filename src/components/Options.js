@@ -324,8 +324,8 @@ class Options extends Component {
                   <div className="w3-rest">
                     <div className="w3-col" 
                       style={{width:'auto', paddingLeft:8, paddingRight:8}}>
-                      <a href={appConfig.developer.url} title={appConfig.developer.name} 
-                        style={{cursor: 'pointer'}}>
+                      <a href={appConfig.developer.url} target="_blank"
+                        title={appConfig.developer.name} style={{cursor: 'pointer'}}>
                         <img className="w3-padding-0 w3-margin-0" src="img/ntura_white.png"
                           alt={appConfig.developer.url}
                           style={{verticalAlign: "middle", height:96}} /></a>
@@ -339,12 +339,12 @@ class Options extends Component {
                         <label>{languages[lang].moreinfoText}:</label>
                         <br />
                         <i className="fa fa-chrome" aria-hidden="true"></i>&nbsp;
-                        <a href={appConfig.webstore.url} 
+                        <a href={appConfig.webstore.url} target="_blank"
                           style={{cursor: 'pointer'}}>{appConfig.webstore.name}</a>
                         <br />
                         <i className="fa fa-github" aria-hidden="true"></i>&nbsp;
-                        <a href={appConfig.github.url} style={{cursor: 'pointer'}}>
-                            {appConfig.github.name}</a>
+                        <a href={appConfig.github.url} target="_blank"
+                          style={{cursor: 'pointer'}}> {appConfig.github.name}</a>
                         <br />
                         <i className="fa fa-envelope" aria-hidden="true"></i>&nbsp;
                         <a href={'mailto:'+appConfig.developer.email} 
