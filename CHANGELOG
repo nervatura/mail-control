@@ -1,0 +1,4 @@
+## 3.0.1
+* rewrite source-code (react & new gui)
+* popup menu: remove simple launcher (no menu)
+* quick labels: custom label settings

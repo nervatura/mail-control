@@ -1,0 +1,47 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "installedESLint": true,
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "classes": true,
+            "defaultParams": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "no-unused-vars": [1, {"vars": "all", "args": "none"}],
+        "no-case-declarations": 0,
+        "default-case": 1,
+        "no-const-assign": 1,
+        "no-extra-semi": 0,
+        "semi": 0,
+        "no-fallthrough": 0,
+        "no-empty": 0,
+        "no-mixed-spaces-and-tabs": 0,
+        "no-redeclare": 0,
+        "no-this-before-super": 1,
+        "no-undef": 1,
+        "no-unreachable": 1,
+        "no-use-before-define": 1,
+        "constructor-super": 1,
+        "curly": 0,
+        "eqeqeq": 0,
+        "func-names": 0,
+        "valid-typeof": 1
+    }
+}
