@@ -1,7 +1,7 @@
 {
   "name": "mail-control",
   "description": "Open source Google Chrome extension for Offline and Desktop Google Mail™. Launcher, mail search, mail checker and more...",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "homepage": ".",
   "devDependencies": {
     "react-scripts": "0.8.5"

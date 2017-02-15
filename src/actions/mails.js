@@ -78,8 +78,8 @@ const setMails = (xmlText) => {
 
       fieldValue = getFieldValue(xmlText, "title", fieldValue.index);
       //fieldValue.index = -1;
-      dispatch({ type: "APP_DATA", key: "mails", data: mails });
     }
+    dispatch({ type: "APP_DATA", key: "mails", data: mails });
   }
 }
 
